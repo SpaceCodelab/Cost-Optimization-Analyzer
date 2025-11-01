@@ -7,3 +7,4 @@ reportlab==4.4.4
 numpy==1.26.0
 matplotlib==3.8.0
 fpdf2==2.8.5
+pytest==7.4.2
