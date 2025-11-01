@@ -29,7 +29,6 @@ jobs:
     
     - name: Run tests
       run: |
-        PYTHONPATH=. pytest tests/ -v
-      env:
-        PYTHONPATH: ${{ github.workspace }}
+        export PYTHONPATH=${{ github.workspace }}:$PYTHONPATH
+        pytest tests/ -v
 
