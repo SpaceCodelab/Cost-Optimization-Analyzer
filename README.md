@@ -248,7 +248,7 @@ Generate professional PDF reports with one click for stakeholder presentations
 </td>
 </tr>
 </table>
-```
+
 ## Future Roadmap
 
 - [ ] Multi-cloud support (Azure, GCP)
