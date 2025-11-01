@@ -13,8 +13,6 @@
 
 [Live Demo](https://cost-optimization-analyzer.streamlit.app/) • [Documentation](#quick-start) • [Report Bug](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/issues)
 
-<img src="https://user-images.githubusercontent.com/placeholder-screenshot.png" alt="Dashboard Preview" width="800px"/>
-
 </div>
 
 ---
@@ -258,13 +256,51 @@ Generate professional PDF reports with one click for stakeholder presentations
 <div align="center">
 
 ### Dashboard Overview
+*Real-time cost visualization with interactive filtering and drill-down capabilities*
+
 ![Dashboard](https://via.placeholder.com/800x400/1E90FF/FFFFFF?text=Interactive+Cost+Dashboard)
 
-### AI Recommendations
-![Recommendations](https://via.placeholder.com/800x400/00CED1/FFFFFF?text=Smart+Optimization+Suggestions)
+---
 
-### Forecasting Engine
-![Forecast](https://via.placeholder.com/800x400/4169E1/FFFFFF?text=Predictive+Analytics)
+### Daily Spend by Service
+*Track spending patterns across AWS services with time-series analysis*
+
+![Daily Spend Chart](https://via.placeholder.com/800x400/4169E1/FFFFFF?text=Daily+Spend+Bar+Chart+by+Service)
+
+---
+
+### Cost Heatmap Analysis
+*Identify high-cost services and time periods at a glance*
+
+![Cost Heatmap](https://via.placeholder.com/800x400/00CED1/FFFFFF?text=Service+Cost+Heatmap)
+
+---
+
+### AI-Powered Recommendations
+*ROI-ranked optimization suggestions with effort vs. savings analysis*
+
+![Recommendations](https://via.placeholder.com/800x400/32CD32/FFFFFF?text=Smart+Optimization+Recommendations)
+
+---
+
+### Effort vs ROI Scatter Plot
+*Visualize quick wins - low effort, high ROI opportunities*
+
+![Scatter Plot](https://via.placeholder.com/800x400/FF6347/FFFFFF?text=Effort+vs+ROI+Analysis)
+
+---
+
+### 30-Day Forecasting
+*Predictive analytics with scenario simulation and trend analysis*
+
+![Forecast](https://via.placeholder.com/800x400/9370DB/FFFFFF?text=Predictive+Cost+Forecasting)
+
+---
+
+### Service Efficiency Scores
+*Monitor and optimize resource utilization across all services*
+
+![Efficiency Table](https://via.placeholder.com/800x400/FFD700/FFFFFF?text=Service+Efficiency+Dashboard)
 
 </div>
 
