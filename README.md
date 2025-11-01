@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/badge/Status-Stable-success" alt="Stable"/>
 </p>
 
-<<<<<<< HEAD
 <p align="center">
   <strong>AI-Powered Cloud Cost Intelligence for AWS 💸</strong><br>
   <em>Predictive, Insightful, and Beautifully Visualized.</em>
