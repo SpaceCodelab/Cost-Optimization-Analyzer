@@ -250,9 +250,6 @@ Generate professional PDF reports with one click for stakeholder presentations
 </table>
 
 ---
-
-## Screenshots & Demos
-
 <div align="center">
 
 ### Dashboard Overview
