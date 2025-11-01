@@ -267,9 +267,7 @@ Generate professional PDF reports with one click for stakeholder presentations
 
 **Built with care by**
 
-[**Ramanjeet Singh**](https://github.com/ramanjeetsingh) • [**Ayush Garg**](https://github.com/ayushgarg)
-
-*Chandigarh University Full Stack Development Capstone Project 2025*
+[**Ramanjeet Singh**](https://github.com/ramanjeetsingh) • [**Ayush Garg**](https://github.com/Ayush1Garg07)
 
 </div>
 
