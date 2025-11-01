@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☁️ AWS Cost Optimization Analyzer 🚀
+# AWS Cost Optimization Analyzer
 
 <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
 <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -8,10 +8,10 @@
 <img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/>
 <img src="https://img.shields.io/badge/Status-Production-success?style=for-the-badge" alt="Status"/>
 
-### 🎯 AI-Powered Cloud Cost Intelligence Platform
+### AI-Powered Cloud Cost Intelligence Platform
 *Predictive Analytics • Real-time Insights • Automated Optimization*
 
-[🚀 Live Demo](https://cost-optimization-analyzer.streamlit.app/) • [📖 Documentation](#-quick-start) • [🐛 Report Bug](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/issues)
+[Live Demo](https://cost-optimization-analyzer.streamlit.app/) • [Documentation](#quick-start) • [Report Bug](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/issues)
 
 <img src="https://user-images.githubusercontent.com/placeholder-screenshot.png" alt="Dashboard Preview" width="800px"/>
 
@@ -19,17 +19,17 @@
 
 ---
 
-## 🌟 What Makes This Special?
+## What Makes This Special?
 
 > **CloudPulse AI** transforms raw AWS billing data into actionable intelligence using cutting-edge machine learning and predictive analytics. Say goodbye to bill shock and hello to optimized cloud spending!
 
-### 💎 Core Capabilities
+### Core Capabilities
 
 <table>
 <tr>
 <td width="50%">
 
-#### 🧠 **Intelligent Analysis**
+#### **Intelligent Analysis**
 - **ML-Powered Anomaly Detection** using Isolation Forest
 - **Predictive Forecasting** with 30-day trend projections
 - **Service Efficiency Scoring** with actionable insights
@@ -38,7 +38,7 @@
 </td>
 <td width="50%">
 
-#### 🎨 **Beautiful Visualizations**
+#### **Beautiful Visualizations**
 - **Interactive Dashboards** powered by Plotly
 - **Real-time Cost Heatmaps** for instant pattern recognition
 - **Animated Trend Charts** with drill-down capabilities
@@ -50,53 +50,53 @@
 
 ---
 
-## 🎯 Key Features at a Glance
+## Key Features at a Glance
 
 ```mermaid
 graph LR
-    A[📊 Upload AWS CSV] --> B[🔍 AI Analysis]
-    B --> C[💡 Smart Recommendations]
-    B --> D[📈 Trend Forecasting]
-    B --> E[🚨 Anomaly Detection]
-    C --> F[💰 Cost Savings]
+    A[Upload AWS CSV] --> B[AI Analysis]
+    B --> C[Smart Recommendations]
+    B --> D[Trend Forecasting]
+    B --> E[Anomaly Detection]
+    C --> F[Cost Savings]
     D --> F
     E --> F
-    F --> G[📄 Export Report]
+    F --> G[Export Report]
 ```
 
 <div align="center">
 
-| 🎯 Feature | 📝 Description | 💪 Impact |
-|:-----------|:---------------|:----------|
-| 💵 **Cost Analysis** | Multi-dimensional spend visualization across services, regions, and time | 📊 **360° View** |
-| 🔍 **Anomaly Detection** | ML-powered spike detection with root cause analysis | 🚨 **Early Warning** |
-| 📈 **Forecasting Engine** | 30-day predictive modeling per service with trend analysis | 🔮 **Future-Ready** |
-| 🤖 **AI Recommendations** | Automated ROI-ranked optimization suggestions | 💰 **Save 40-60%** |
-| 🎨 **Interactive UI** | Real-time filtering, drill-downs, and scenario simulations | ⚡ **Lightning Fast** |
-| 📄 **PDF Reporting** | One-click professional reports for stakeholders | 📊 **Executive Ready** |
+| Feature | Description | Impact |
+|:--------|:------------|:-------|
+| **Cost Analysis** | Multi-dimensional spend visualization across services, regions, and time | **360° View** |
+| **Anomaly Detection** | ML-powered spike detection with root cause analysis | **Early Warning** |
+| **Forecasting Engine** | 30-day predictive modeling per service with trend analysis | **Future-Ready** |
+| **AI Recommendations** | Automated ROI-ranked optimization suggestions | **Save 40-60%** |
+| **Interactive UI** | Real-time filtering, drill-downs, and scenario simulations | **Lightning Fast** |
+| **PDF Reporting** | One-click professional reports for stakeholders | **Executive Ready** |
 
 </div>
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
 ```bash
-✅ Python 3.12+
-✅ pip package manager
-✅ AWS billing CSV file
+Python 3.12+
+pip package manager
+AWS billing CSV file
 ```
 
-### 📦 Installation
+### Installation
 
 ```bash
-# 1️⃣ Clone the repository
+# Clone the repository
 git clone https://github.com/SpaceCodelab/Cost-Optimization-Analyzer.git
 cd Cost-Optimization-Analyzer
 
-# 2️⃣ Create virtual environment (recommended)
+# Create virtual environment (recommended)
 python -m venv env
 
 # Windows
@@ -105,17 +105,17 @@ env\Scripts\activate
 # macOS/Linux
 source env/bin/activate
 
-# 3️⃣ Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 4️⃣ Add your AWS billing CSV to data/ folder
+# Add your AWS billing CSV to data/ folder
 # Place your file as: data/sample_aws.csv
 
-# 5️⃣ Launch the app
+# Launch the app
 streamlit run app/main.py
 ```
 
-### 🎉 First Run
+### First Run
 
 1. Navigate to `http://localhost:8501`
 2. The app will automatically load your AWS data
@@ -124,33 +124,33 @@ streamlit run app/main.py
 
 ---
 
-## 📂 Project Architecture
+## Project Architecture
 
 ```
 Cost-Optimization-Analyzer/
-├── 📱 app/
-│   ├── main.py              # 🎯 Core Streamlit application
-│   └── logo.svg             # 🎨 Brand assets
+├── app/
+│   ├── main.py              # Core Streamlit application
+│   └── logo.svg             # Brand assets
 │
-├── 📊 data/
-│   └── sample_aws.csv       # 💾 AWS billing data
+├── data/
+│   └── sample_aws.csv       # AWS billing data
 │
-├── 🧪 tests/
-│   ├── test_func.py         # ✅ Unit tests
-│   └── conftest.py          # ⚙️ Pytest configuration
+├── tests/
+│   ├── test_func.py         # Unit tests
+│   └── conftest.py          # Pytest configuration
 │
-├── 📄 Documentation
-│   ├── requirements.txt     # 📦 Python dependencies
-│   ├── runtime.txt          # 🐍 Python version spec
-│   └── README.md            # 📖 You are here!
+├── Documentation
+│   ├── requirements.txt     # Python dependencies
+│   ├── runtime.txt          # Python version spec
+│   └── README.md            # You are here!
 │
-└── ⚙️ .streamlit/
-    └── config.toml          # 🎨 App theme & secrets
+└── .streamlit/
+    └── config.toml          # App theme & secrets
 ```
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 <div align="center">
 
@@ -195,35 +195,35 @@ Cost-Optimization-Analyzer/
 
 ---
 
-## 📊 How It Works
+## How It Works
 
-### 1️⃣ **Data Ingestion**
+### Step 1: Data Ingestion
 Upload your AWS billing CSV → Automatic parsing and validation → Smart data cleaning
 
-### 2️⃣ **AI Analysis Engine**
+### Step 2: AI Analysis Engine
 ```python
-🔍 Anomaly Detection: Isolation Forest algorithm identifies cost spikes
-📈 Trend Analysis: Linear regression models predict future spend
-💡 Recommendation Engine: ROI-ranked optimization suggestions
+Anomaly Detection: Isolation Forest algorithm identifies cost spikes
+Trend Analysis: Linear regression models predict future spend
+Recommendation Engine: ROI-ranked optimization suggestions
 ```
 
-### 3️⃣ **Interactive Dashboards**
+### Step 3: Interactive Dashboards
 - **Overview Tab**: Total spend, anomalies, efficiency scores
 - **Recommendations Tab**: AI-powered savings opportunities
 - **Forecast Tab**: 30-day predictions with scenario simulation
 
-### 4️⃣ **Export & Share**
+### Step 4: Export & Share
 Generate professional PDF reports with one click for stakeholder presentations
 
 ---
 
-## 🎓 Use Cases
+## Use Cases
 
 <table>
 <tr>
 <td width="33%">
 
-### 💼 **For FinOps Teams**
+### **For FinOps Teams**
 - Track cloud spending across departments
 - Identify cost optimization opportunities
 - Generate executive reports
@@ -232,7 +232,7 @@ Generate professional PDF reports with one click for stakeholder presentations
 </td>
 <td width="33%">
 
-### 👨‍💻 **For DevOps Engineers**
+### **For DevOps Engineers**
 - Detect unusual resource usage
 - Right-size infrastructure
 - Forecast capacity needs
@@ -241,7 +241,7 @@ Generate professional PDF reports with one click for stakeholder presentations
 </td>
 <td width="33%">
 
-### 📊 **For Finance Teams**
+### **For Finance Teams**
 - Predict monthly cloud bills
 - Allocate budgets accurately
 - Track cost trends
@@ -253,40 +253,40 @@ Generate professional PDF reports with one click for stakeholder presentations
 
 ---
 
-## 🌈 Screenshots & Demos
+## Screenshots & Demos
 
 <div align="center">
 
-### 📊 Dashboard Overview
+### Dashboard Overview
 ![Dashboard](https://via.placeholder.com/800x400/1E90FF/FFFFFF?text=Interactive+Cost+Dashboard)
 
-### 🤖 AI Recommendations
+### AI Recommendations
 ![Recommendations](https://via.placeholder.com/800x400/00CED1/FFFFFF?text=Smart+Optimization+Suggestions)
 
-### 📈 Forecasting Engine
+### Forecasting Engine
 ![Forecast](https://via.placeholder.com/800x400/4169E1/FFFFFF?text=Predictive+Analytics)
 
 </div>
 
 ---
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
-- [ ] 🔐 Multi-cloud support (Azure, GCP)
-- [ ] 📱 Mobile-responsive design
-- [ ] 🔔 Real-time anomaly alerts via email/Slack
-- [ ] 🤝 Team collaboration features
-- [ ] 📊 Custom KPI dashboards
-- [ ] 🌍 Multi-currency support
-- [ ] 🔌 API integrations for automated reporting
+- [ ] Multi-cloud support (Azure, GCP)
+- [ ] Mobile-responsive design
+- [ ] Real-time anomaly alerts via email/Slack
+- [ ] Team collaboration features
+- [ ] Custom KPI dashboards
+- [ ] Multi-currency support
+- [ ] API integrations for automated reporting
 
 ---
 
-## 👥 Team
+## Team
 
 <div align="center">
 
-**Built with ❤️ by**
+**Built with care by**
 
 [**Ramanjeet Singh**](https://github.com/ramanjeetsingh) • [**Ayush Garg**](https://github.com/ayushgarg)
 
@@ -296,13 +296,13 @@ Generate professional PDF reports with one click for stakeholder presentations
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -314,7 +314,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - AWS for comprehensive billing data format
 - Streamlit for the amazing framework
@@ -325,11 +325,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 <div align="center">
 
-### ⭐ Star this repo if you find it useful!
+### Star this repo if you find it useful!
 
 [![GitHub stars](https://img.shields.io/github/stars/SpaceCodelab/Cost-Optimization-Analyzer?style=social)](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/SpaceCodelab/Cost-Optimization-Analyzer?style=social)](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/network/members)
 
-**Made with ☁️ and 💰 in India** | **[Report Issues](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/issues)** | **[Request Features](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/issues/new)**
+**Made with cloud computing in India** | **[Report Issues](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/issues)** | **[Request Features](https://github.com/SpaceCodelab/Cost-Optimization-Analyzer/issues/new)**
 
 </div>
