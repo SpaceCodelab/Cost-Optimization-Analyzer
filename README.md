@@ -1,4 +1,4 @@
-<h1 align="center">☁️ CloudPulse AI – AWS Cost Optimization Analyzer 🚀</h1>
+<h1 align="center">☁️ AWS Cost Optimization Analyzer 🚀</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" alt="Streamlit App"/>
@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Status-Stable-success" alt="Stable"/>
 </p>
 
+<<<<<<< HEAD
 <p align="center">
   <strong>AI-Powered Cloud Cost Intelligence for AWS 💸</strong><br>
   <em>Predictive, Insightful, and Beautifully Visualized.</em>
@@ -60,7 +61,24 @@ It leverages:
 ## ⚙️ Installation
 
 Clone the repo:
+=======
+## Features
+- CSV upload or live API fetch
+- 5+ savings rules (RI, idle EC2, S3 lifecycle)
+- Interactive Streamlit dashboard
+- Export PDF/CSV reports
+ 
+## Live Demo
+(https://cost-optimization-analyzer.streamlit.app/)
+>>>>>>> bab34bd48982a1655703de21e83e0433c3712514
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/SpaceCodelab/Cost-Optimization-Analyzer.git
 cd Cost-Optimization-Analyzer
+=======
+git clone https://github.com/yourname/cost-optimizer.git
+cd cost-optimizer
+pip install -r requirements.txt
+streamlit run app/main.py
+>>>>>>> bab34bd48982a1655703de21e83e0433c3712514
