@@ -75,3 +75,24 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app/main.py
+
+## 📂 Project Structure
+
+Cost-Optimization-Analyzer/
+│
+├── app/
+│   ├── main.py                # Streamlit dashboard
+│   └── logo.svg               # Optional app logo
+│
+├── data/
+│   └── sample_aws.csv         # Sample AWS billing data
+│
+├── tests/
+│   └── test_func.py            # Unit tests
+    └── conftest.py           
+│
+├── requirements.txt           # Dependencies
+├── runtime.txt                # Python version
+├── README.md                  # This file
+└── .streamlit/
+    └── config.toml (optional) # Theme or secrets config
