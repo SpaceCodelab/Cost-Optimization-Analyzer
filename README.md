@@ -1,4 +1,4 @@
-<h1 align="center">☁️ AWS Cost Optimization Analyzer 🚀</h1>
+# ☁️ AWS Cost Optimization Analyzer 🚀
 
 <p align="center">
   <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" alt="Streamlit App"/>
@@ -48,7 +48,7 @@ It leverages:
 
 ## 🧰 Tech Stack
 
-- **Frontend / UI:** [Streamlit](https://streamlit.io)  
+- **Frontend / UI:** [Streamlit](https://streamlit.io/)  
 - **Data Processing:** Pandas, NumPy  
 - **Visualization:** Plotly, Matplotlib  
 - **Machine Learning:** scikit-learn  
@@ -75,26 +75,25 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app/main.py
+```
 
+---
 
 ## 📂 Project Structure
+
 ```
 Cost-Optimization-Analyzer/
-│
-├──  app/
-│   ├──  main.py                # Streamlit dashboard
-│   └──  logo.svg               # Optional app logo
-│
-├──  data/
-│   └──  sample_aws.csv         # Sample AWS billing data
-│
-├──  tests/
-│   ├──  test_func.py           # Unit tests
-│   └──  conftest.py            # Pytest config
-│
-├──  requirements.txt           # Dependencies
-├──  runtime.txt                # Python version
-├──  README.md                  # This file
-└──  .streamlit/
-    └── ⚙️ config.toml            # Theme/secrets config (optional)
+├── app/
+│   ├── main.py          # Streamlit dashboard
+│   └── logo.svg         # Optional app logo
+├── data/
+│   └── sample_aws.csv   # Sample AWS billing data
+├── tests/
+│   ├── test_func.py     # Unit tests
+│   └── conftest.py      # Pytest config
+├── requirements.txt     # Dependencies
+├── runtime.txt          # Python version
+├── README.md            # This file
+└── .streamlit/
+    └── config.toml      # Theme/secrets config (optional)
 ```
