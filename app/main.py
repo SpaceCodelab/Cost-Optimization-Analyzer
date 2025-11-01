@@ -178,7 +178,7 @@ def service_trends(df):
         if len(daily) < 2:
             continue
         # Trend
-        x = (daily["Date"] - daily["Date"].min()).dt.days.values.reshape(-1,1)
+        x = (daily["Date"] - daily["Date"].min()).dt.days.values.reshape(-1, 1)
         y = daily["Cost"].values
         model = LinearRegression()
         model.fit(x, y)
@@ -206,9 +206,11 @@ def forecast_service(df, days=30):
             continue
         daily["days"] = (daily["Date"] - daily["Date"].min()).dt.days + 1
         lr = LinearRegression()
-        lr.fit(daily[["days"]], daily["Cost"])
+        x = daily["days"].values.reshape(-1, 1)
+        y = daily["Cost"].values
+        lr.fit(x, y)
         last_day = daily["days"].max()
-        future_days = np.arange(last_day+1, last_day+days+1).reshape(-1,1)
+        future_days = np.arange(last_day+1, last_day+days+1).reshape(-1, 1)
         future_costs = lr.predict(future_days)
         future_dates = [daily["Date"].max() + pd.Timedelta(days=i) for i in range(1, days+1)]
         forecast_dfs.append(pd.DataFrame({"Service": service, "Date": future_dates, "Forecast": future_costs}))
