@@ -76,6 +76,7 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app/main.py
 
+---
 ## 📂 Project Structure
 
 Cost-Optimization-Analyzer/
@@ -96,3 +97,4 @@ Cost-Optimization-Analyzer/
 ├── README.md                  # This file
 └── .streamlit/
     └── config.toml (optional) # Theme or secrets config
+---
