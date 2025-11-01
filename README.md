@@ -16,7 +16,7 @@
 
 ## 🌍 Live Demo
 
-👉 **Try it now:** (https://cost-optimization-analyzer.streamlit.app/)
+👉 **Try it now:** [https://cost-optimization-analyzer.streamlit.app/](https://cost-optimization-analyzer.streamlit.app/)
 
 ---
 
@@ -59,25 +59,19 @@ It leverages:
 
 ## ⚙️ Installation
 
-Clone the repo:
-=======
-## Features
-- CSV upload or live API fetch
-- 5+ savings rules (RI, idle EC2, S3 lifecycle)
-- Interactive Streamlit dashboard
-- Export PDF/CSV reports
- 
-## Live Demo
-(https://cost-optimization-analyzer.streamlit.app/)
->>>>>>> bab34bd48982a1655703de21e83e0433c3712514
-
 ```bash
-<<<<<<< HEAD
+# Clone the repository
 git clone https://github.com/SpaceCodelab/Cost-Optimization-Analyzer.git
 cd Cost-Optimization-Analyzer
-=======
-git clone https://github.com/yourname/cost-optimizer.git
-cd cost-optimizer
+
+# Create and activate virtual environment (recommended)
+python -m venv env
+env\Scripts\activate        # Windows
+# or
+source env/bin/activate     # macOS/Linux
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the app
 streamlit run app/main.py
->>>>>>> bab34bd48982a1655703de21e83e0433c3712514
