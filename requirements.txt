@@ -6,4 +6,4 @@ statsmodels>=0.14
 reportlab==4.4.4
 numpy==1.26.4
 matplotlib==3.8.0
-fpdf2-2.8.5
+fpdf2==2.8.5
