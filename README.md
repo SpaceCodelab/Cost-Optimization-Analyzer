@@ -76,9 +76,9 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app/main.py
 
----
-## 📂 Project Structure
 
+## 📂 Project Structure
+---
 Cost-Optimization-Analyzer/
 │
 ├── app/
