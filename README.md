@@ -1,19 +1,66 @@
-# Cloud Cost Optimization Analyzer
+<h1 align="center">☁️ CloudPulse AI – AWS Cost Optimization Analyzer 🚀</h1>
 
-> Scan AWS/GCP bills → Get instant savings recommendations.
+<p align="center">
+  <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" alt="Streamlit App"/>
+  <img src="https://img.shields.io/badge/Python-3.12-blue?logo=python" alt="Python"/>
+  <img src="https://img.shields.io/badge/ML-Anomaly%20Detection-green?logo=scikitlearn" alt="Machine Learning"/>
+  <img src="https://img.shields.io/badge/Status-Stable-success" alt="Stable"/>
+</p>
 
-## Features
-- CSV upload or live API fetch
-- 5+ savings rules (RI, idle EC2, S3 lifecycle)
-- Interactive Streamlit dashboard
-- Export PDF/CSV reports
- 
-## Live Demo
-[https://your-app.streamlit.app](https://your-app.streamlit.app)
+<p align="center">
+  <strong>AI-Powered Cloud Cost Intelligence for AWS 💸</strong><br>
+  <em>Predictive, Insightful, and Beautifully Visualized.</em>
+</p>
 
-## Setup
+---
+
+## 🌍 Live Demo
+
+👉 **Try it now:** (https://cost-optimization-analyzer.streamlit.app/)
+
+---
+
+## 💡 Overview
+
+**CloudPulse AI** is an advanced **Streamlit-based analytics dashboard** that helps cloud teams understand, forecast, and optimize AWS spending using AI and data visualization.
+
+It leverages:
+- 🧠 **Machine Learning (Isolation Forest)** for anomaly detection  
+- 💹 **Linear Regression** for forecasting and trend analysis  
+- 💰 **AI-driven Recommendations** to identify potential savings  
+- 📊 **Interactive Visualizations** powered by Plotly and Matplotlib  
+- 📄 **One-click PDF Report Generation** for decision-makers  
+
+---
+
+## 🧠 Key Features
+
+| Feature | Description |
+|----------|-------------|
+| 💵 **AWS Cost Analysis** | Automatically parses your AWS billing CSV and visualizes daily, regional, and service-level spend |
+| 🔍 **Anomaly Detection** | Detects unusual cost spikes using ML (Isolation Forest) |
+| 📈 **Forecasting Engine** | Predicts next 30-day spend trends per service |
+| 🤖 **AI Recommendations** | Identifies high-ROI cost-saving opportunities |
+| 🎨 **Interactive Dashboards** | Built with Plotly, Streamlit, and responsive layouts |
+| 🧾 **PDF Export** | Generates professional PDF cost reports automatically |
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend / UI:** [Streamlit](https://streamlit.io)  
+- **Data Processing:** Pandas, NumPy  
+- **Visualization:** Plotly, Matplotlib  
+- **Machine Learning:** scikit-learn  
+- **Reporting:** fpdf2, ReportLab  
+- **Language:** Python 3.12  
+
+---
+
+## ⚙️ Installation
+
+Clone the repo:
+
 ```bash
-git clone https://github.com/yourname/cost-optimizer.git
-cd cost-optimizer
-pip install -r requirements.txt
-streamlit run app/main.py
+git clone https://github.com/SpaceCodelab/Cost-Optimization-Analyzer.git
+cd Cost-Optimization-Analyzer
