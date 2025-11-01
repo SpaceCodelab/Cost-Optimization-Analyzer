@@ -9,7 +9,7 @@
 - Export PDF/CSV reports
  
 ## Live Demo
-[https://your-app.streamlit.app]((https://cost-optimization-analyzer.streamlit.app/))
+(https://cost-optimization-analyzer.streamlit.app/)
 
 ## Setup
 ```bash
